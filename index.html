@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eventos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body id="pagina">
+    <div class="container">
+        <h1>Ejercicio Practico. X Eventos </h1>
+        <button class="btn-scroll" onclick="Scrolldown()">ScrollDown</button>
+        <p id="textofuncional">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus exercitationem minus, qui temporibus voluptate nostrum fugit soluta iste non quos doloribus? Perspiciatis similique quae itaque amet cupiditate tempora obcaecati.</p>
+        <h2>Eventos con mouse</h2>
+        <p>Evento onclick</p>
+        <button class="btn btn-success" onclick="Escondertxt()">Esconder texto</button>
+        <br>
+        <br>
+        <p>Evento ondblclick</p>
+        <button class="btn btn-danger" ondblclick="Mostrartxt()">Mostrar texto</button>
+        <br>
+        <br>
+        <p>Evento onmouseover</p>
+        <button class="btn btn-primary" onmouseover="Cambiarcolorazul()">Cambiar color azul</button>
+        <br>
+        <br>
+        <p>Evento onmouseup</p>
+        <button class="btn btn-dark" onmouseup="Regresarcolor()">Regresar a su color normal</button>
+        <br>
+        <br>
+        <p>Evento onmouseenter</p>
+        <button class="btn btn-warning" onmouseenter="Cambiarbackground()">Cambiar el fondo</button>
+        <br>
+        <br>
+        <p>Evento onmousedown</p>
+        <button class="btn btn-light" onmousedown="Regresarbackground()">Volver el fondo a su tono normal</button>
+        <br>
+        <br>
+        <p>Evento onmouseleave</p>
+        <button class="btn btn-secondary" onmouseleave="Cambiartipografia()">Cambiar tipografía</button>
+        <br>
+        <br>
+        <p>Evento onmousemove</p>
+        <button class="btn btn-info" onmousemove="Aumentartxt()">Aumentar tamaño del texto</button>
+        <br>
+        <br>
+        <p>Evento onmouseout</p>
+        <button class="btn btn-link" onmouseout="Subrayartxt()">Subrayar el texto</button>
+        <br>
+        <br>
+        <p>Evento onmouse</p>
+        <button class="btn-scroll" onwheel="regresarInicio()">Volver al inicio (ScrollUp)</button>
+        <br>
+        <br>
+        <button onclick="Esconderbtn()">Esconder botones de scroll</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
